@@ -25,11 +25,10 @@ data["InPlanePhaseEncodingDirectionDICOM"]=''
 data["InversionTime"]=
 data["PatientPosition"]=''
 
-root_dir = ''
-project_label = ''
-dataset_json_folder = root_dir+project_label
+bids_dir = ''
+project_subject_label = ''
+dataset_json_folder = bids_dir + project_subject_label
 dataset_json_name=dataset_json_folder+'/'+'T1w.json'
-
 
 with open(dataset_json_name, 'w') as ff:
     json.dump(data, ff,sort_keys=False, indent=4)

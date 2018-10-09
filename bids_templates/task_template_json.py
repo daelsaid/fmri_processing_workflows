@@ -2,7 +2,6 @@ import os
 import collections
 import json
 
-
 data = collections.OrderedDict()
 
 data["TaskName"]= ''
@@ -31,9 +30,9 @@ data["PixelBandwidth"]=
 data["MRAcquisitionType"]=
 data["PatientPosition"]=
 
-root_dir = ""
-project_label = ''
-dataset_json_folder = root_dir+project_label
+bids_dir = ''
+project_subject_label = ''
+dataset_json_folder = bids_dir + project_subject_label
 dataset_json_name=dataset_json_folder+'/'+'task-rest_bold.json'
 
 with open(dataset_json_name, 'w') as ff:
