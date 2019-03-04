@@ -5,24 +5,24 @@ import json
 
 data = collections.OrderedDict()
 
-data["Manufacturer"]=
-data["NumberOfSlices"]=
-data["MagneticFieldStrength"]=
-data["RepetitionTime"]=
-data["EchoTime"]=
+data["Manufacturer"]=''
+data["NumberOfSlices"]=''
+data["MagneticFieldStrength"]=''
+data["RepetitionTime"]=''
+data["EchoTime"]=''
 data["NumberOfVolumesDiscardedByScanner"]=''
-data["FlipAngle"]=
-data["AcquisitionDuration"]=
+data["FlipAngle"]=''
+data["AcquisitionDuration"]=''
 data["NumberOfVolumesDiscardedByUser"]= ''
-data["MultibandAccelerationFactor"]=
+data["MultibandAccelerationFactor"]=''
 data["PhaseEncodingDirection"]=''
 data["InstitutionName"]= ''
-data["PercentPhaseFOV"]=
-data["AcquisitionMatrixPE"]=
-data["ReconMatrixPE"]=
-data["PixelBandwidth"]=
+data["PercentPhaseFOV"]=''
+data["AcquisitionMatrixPE"]=''
+data["ReconMatrixPE"]=''
+data["PixelBandwidth"]=''
 data["InPlanePhaseEncodingDirectionDICOM"]=''
-data["InversionTime"]=
+data["InversionTime"]=''
 data["PatientPosition"]=''
 
 bids_dir = ''
